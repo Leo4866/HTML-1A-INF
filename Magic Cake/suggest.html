@@ -4,13 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suggest</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="recipes.html">Recipes</a></li>
-        <li><a href="suggest.html">Suggest</a></li>
-    </ul>
-    Suggest
+    <div class="header">
+        <h1>Recipes World</h1>
+        <ul class="nav">
+         <li><a href="home.html">Home</a></li>
+         <li><a href="recipes.html">Recipes</a></li>
+         <li><a href="suggest.html">Suggest</a></li>
+        </ul>
+    </div>
+<div class="main-content">
+    <form action>
+        <label for="recipe_name">Recipe Name</label>
+        <input id="recipe_name" type="text">
+        <label for="ingredients">Ingredients</label>
+        <textarea id="ingredients"></textarea>
+        <input type="submit" value="Click to Submit">
+        </form>
+</div>
 </body>
+
 </html>
